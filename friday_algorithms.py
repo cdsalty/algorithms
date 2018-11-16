@@ -31,16 +31,16 @@
 # even-valued terms.
     #a while statement is used when you have no idea how long the code should run. If you have a known/fixed ending point, 
     #then use a for loop.
-# sum_total = 0
-# fib1 = 1
-# fib2 = 2
-# while(sum_total < 4000000):
-#     new_fib = fib1 + fib2
-#     fib1 = fib2
-#     fib2 = new_fib
-#     if(fib1 % 2 == 0):  #here, we are determining if our number will divide evenly by 2; a remainder of 0
-#         sum_total += fib1 # OR sum_total = sum_total + fb1
-# print sum_total
+sum_total = 0
+fib1 = 1
+fib2 = 2
+while(sum_total < 4000000):
+    new_fib = fib1 + fib2
+    fib1 = fib2
+    fib2 = new_fib
+    if(fib1 % 2 == 0):  #here, we are determining if our number will divide evenly by 2; a remainder of 0
+        sum_total += fib1 # OR sum_total = sum_total + fb1
+print sum_total
 
 
 
