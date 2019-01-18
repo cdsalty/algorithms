@@ -8,6 +8,14 @@
 //     console.log(firstLastMatch.push(nameArray[i]));
 // }
 
+/*
+QUESTION:
+A palindrome is a word that's the same when it's read forward and backwards. "racecar" is a palindrome 
+because it's the same when read backwards.
+
+names.txt has 10,000 names and only one is a palindrome. Write a script/class to find the palindrome for 
+the given text file. 
+*/
 
 // Correct Code:
 var fs = require('fs')
